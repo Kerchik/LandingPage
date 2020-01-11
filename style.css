@@ -36,7 +36,7 @@ body {
 }
 .menu {
     display: inline-block;
-    margin-top: 17px;
+    padding-top: 17px;
 }
 .menu a{
     color: #ffffff;
@@ -263,6 +263,7 @@ body {
     border: 1px solid #05b9b1;
     padding: 12px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .worksHeader h2 {
     display: inline-block;
@@ -307,7 +308,334 @@ body {
     color: #00e0d0;
     font-family: 'Hammersmith One', sans-serif;
     font-size: 16pt;
+    cursor: pointer;
 }
+#peopleSay {
+    background: url(img/bg4.png);
+}
+#peopleSayContent {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+#peopleSayContent #q {
+    margin-top: 70px;
+}
+#peopleSayContent p {
+    font-family: 'Playfair Display Regular', serif;
+    color: #e8e7ea;
+    font-size: 16pt;
+    margin-top: 40px;
+}
+#peopleSayContent #name {
+    color: #ffffff;
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 14pt;
+    margin-top: 40px;
+}
+#peopleSayContent #job {
+    
+    margin-top: 5px;
+}
+#peopleSaySlider {
+    text-align: center;
+    position: relative;
+    width: 60%;
+    margin: 35px auto 0px;
+    padding-bottom: 20px;
+}
+#back {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+#forward {
+    position: absolute;
+    top: 40%;
+    left: 74%;
+}
+.activeImg {
+    width: 70px !important;
+}
+.peopleSayPhoto {
+    width: 45px;
+    cursor: pointer;
+}
+#submitAndClients {
+    background: #ffffff;   
+    display: flex;
+    margin: 30px;
+    
+}
+#submit {
+    
+    flex: 1;
+}
+#submit input{
+    width: 98%;
+    margin-bottom: 20px;
+    height: 42px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 23px;
+}
+#submit button{
+    background: none;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16pt;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    padding: 10px 30px;
+
+}
+#submit h2 {
+    font-family: 'Playfair Display Bold', serif;
+    color: #413d4b;
+    font-size: 22pt;
+    margin-bottom: 30px;
+}
+
+#clients {
+    
+    flex: 1;
+    
+
+}
+#leftClients {
+    flex:1;
+}
+
+
+#leftClients img{
+    flex:1;
+    margin-bottom: 45px;
+    display: block;
+    
+}
+#rightClients img{
+    flex:1;
+    margin-bottom: 45px;
+    display: block;
+    
+}
+#rightClients {
+    flex:1;
+}
+#clientsContent {
+    display: flex;
+}
+#headerClients h2 {
+    font-family: 'Playfair Display Bold', serif;
+    color: #413d4b;
+    font-size: 22pt;
+    margin-bottom: 45px;
+    padding-left: 10px;
+}
+#leftClients img {
+    padding-left: 10px;
+}
+#contact {
+    background: url("img/bg5.png");
+}
+#contactContainer {
+    display: flex;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.tajam {
+    flex:1;
+    position: relative;
+    margin-top: 60px;
+    padding: 2px;
+    
+}
+.ourStudio {
+    flex:1;
+    margin-top: 60px;
+}
+.stayInTouch{
+    flex:1;
+    margin-top: 60px;
+}
+.smallLogo {
+    margin-bottom: 20px;
+}
+.smallLogo .tajamName{
+    position: absolute;
+    top: 0%;
+    left: 14%;
+    color: #1dc9cf;
+    font-family: 'Roboto Thin', sans-serif;
+    font-size: 30pt;
+}
+.tajamText p {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 14pt;
+}
+.tajamFooter {
+    display: flex;
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+
+}
+#help {
+    flex: 0.6;
+}
+#terms {
+    flex: 1.7;
+}
+#privacy {
+    flex: 1;
+}
+.ourStudio h2{
+    padding-top: 15px;
+    margin-bottom: 32px;
+    padding-left: 2px;
+}
+.ourStudio p{
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 14pt;
+    margin-bottom: 20px;
+    padding-left: 2px;
+}
+.location:before {
+    content: url("img/location.png");
+    padding-right: 10px;
+}
+.phoneNumber:before {
+    content: url("img/phone.png");
+    padding-right: 10px;
+}
+.socNetwork {
+    padding-left: 27px;
+}
+.socNetwork img{
+    margin-left: 5px;
+    
+}
+.stayInTouch h2 {
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 15pt;
+    padding-top: 15px;
+    padding-left: 30px;
+    margin-bottom: 42px;
+    
+}
+.copyright {
+    margin-top: 115px;
+}
+.copyright p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    float: right;
+    padding-right: 2px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+@media screen and (max-width: 1050px) {
+    #peopleSaySlider {
+        text-align: center;
+        margin-top: 45px;
+        position: relative;
+        width: 60%;
+        margin: 45px auto;
+    }
+    #back {
+        position: absolute;
+        top: 40%;
+        left: 20%;
+    }
+    #forward {
+        position: absolute;
+        top: 40%;
+        left: 78%;
+    }
+}
+@media screen and (max-width: 869px) {
+    #peopleSaySlider {
+        text-align: center;
+        margin-top: 45px;
+        position: relative;
+        width: 70%;
+        margin: 45px auto;
+    }
+    #back {
+        position: absolute;
+        top: 40%;
+        left: 15%;
+    }
+    #forward {
+        position: absolute;
+        top: 40%;
+        left: 82%;
+    }
+    
+}
+@media screen and (max-width: 646px) {
+    #peopleSaySlider {
+        text-align: center;
+        margin-top: 45px;
+        position: relative;
+        width: 80%;
+        margin: 45px auto;
+    }
+    #back {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+    }
+    #forward {
+        position: absolute;
+        top: 40%;
+        left: 87%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #peopleSaySlider {
+        text-align: center;
+        margin-top: 45px;
+        position: relative;
+        width: 100%;
+        margin: 45px auto;
+    }
+    #back {
+        position: absolute;
+        top: 40%;
+        left: 7%;
+    }
+    #forward {
+        position: absolute;
+        top: 40%;
+        left: 91%;
+    }
+}
+@media screen and (max-width: 375px) {
+    #peopleSaySlider {
+        text-align: center;
+        margin-top: 45px;
+        position: relative;
+        width: 100%;
+        margin: 45px auto;
+    }
+    #back {
+        display: none;
+    }
+    #forward {
+        display: none;
+    }
+}
+
+
 
 
 
