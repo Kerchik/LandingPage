@@ -26,6 +26,16 @@ let changePeopleSayText = (e) => {
     name.innerHTML = e.target.getAttribute("name")
     job.innerHTML = e.target.getAttribute("job")
 }
+
+let playVideo = (e) => {
+    let videoContent = document.getElementById("videoContent");
+    videoContent.style.display = "none";
+
+    let video = document.getElementById("videoTemplate");
+    video.classList.remove("hideVideo");
+    video.classList.add("showVideo")
+    video.play();
+}
 (function onScroll() {
     window.onscroll = function() {myFunction()};
 

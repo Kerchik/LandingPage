@@ -129,11 +129,27 @@ body {
     height: 35%;
     width: 30%;
 }
-
+#videoDiv {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.hideVideo {
+    display: none;
+}
+.showVideo {
+    display: block;
+    margin: auto;
+    width: 50%;
+    position: absolute;
+    left: 23%;
+    top: 17%;
+}
 #videoContent img {
     margin: auto;
     display: block;
     padding: 5px;
+    cursor: pointer;
     
 }
 #videoContent p {
