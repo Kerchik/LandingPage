@@ -177,13 +177,13 @@
                 <p id="job">CEO TENGKUREP</p>
         </div>
         <div id="peopleSaySlider">
-            <img id="back" src="img/back.png" />
-            <img class="peopleSayPhoto" name="ANNE RAMSEY" job="CEO IT-TECH" onClick="makeActivePhoto(event)" src="img/say1.png" />
-            <img class="peopleSayPhoto" name="JACK UNDERWOOD" job="CEO RAINBOW" onClick="makeActivePhoto(event)" src="img/say2.png" />
-            <img class="peopleSayPhoto activeImg" name="JANE GALADRIEL" job="CEO TENGKUREP" onClick="makeActivePhoto(event)" src="img/say3.png" />
-            <img class="peopleSayPhoto" name="ROSE WATSON" job="CEO EUROPEAN TASK" onClick="makeActivePhoto(event)" src="img/say4.png" />
-            <img class="peopleSayPhoto" name="ADAM SNOW" job="CEO ANARCHY" onClick="makeActivePhoto(event)" src="img/say5.png" />
-            <img id="forward" src="img/forward.png" />
+            <img id="back" onClick="leftButton()" src="img/back.png" />
+            <img class="peopleSayPhoto" name="ANNE RAMSEY" job="CEO IT-TECH" onClick="makeActivePhoto(event.target)" src="img/say1.png" />
+            <img class="peopleSayPhoto" name="JACK UNDERWOOD" job="CEO RAINBOW" onClick="makeActivePhoto(event.target)" src="img/say2.png" />
+            <img class="peopleSayPhoto activeImg" name="JANE GALADRIEL" job="CEO TENGKUREP" onClick="makeActivePhoto(event.target)" src="img/say3.png" />
+            <img class="peopleSayPhoto" name="ROSE WATSON" job="CEO EUROPEAN TASK" onClick="makeActivePhoto(event.target)" src="img/say4.png" />
+            <img class="peopleSayPhoto" name="ADAM SNOW" job="CEO ANARCHY" onClick="makeActivePhoto(event.target)" src="img/say5.png" />
+            <img id="forward" onClick="rightButton()" src="img/forward.png" />
         </div>
     </div>
     <div id="submitAndClients">

@@ -1,6 +1,9 @@
 * {
     margin: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body {
     width: 100%;
     
@@ -557,6 +560,12 @@ body {
     width: 100%;
     background-color: black;
     z-index: 9000;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sticky a {
+   
 }
 
 @media screen and (max-width: 1050px) {
